@@ -1,27 +1,26 @@
-# PRODIGY_ML_01
-1st project as intern at prodigy infotech
-# Task 01 - House Price Prediction using Linear Regression
+# House Price Prediction (Linear Regression)
 
-This project implements a simple linear regression model to predict house prices based on their square footage, number of bedrooms, and bathrooms.
+## Overview
+This project predicts house prices using Linear Regression based on:
+- Square Footage (GrLivArea)
+- Number of Bedrooms
+- Number of Bathrooms
 
 ## Dataset
-The dataset is from the Kaggle competition: [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+Download dataset from Kaggle:
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 
-## Features Used
-- GrLivArea: Above ground living area (sq ft)
-- BedroomAbvGr: Number of bedrooms
-- FullBath: Number of full bathrooms
+Place `train.csv` in the project folder.
 
-## Instructions
-1. Download and extract the dataset from Kaggle.
-2. Place the `train.csv` file in the same directory as the script.
-3. Run the script using Python.
+## Installation
+pip install pandas scikit-learn
+
+## Run
+python model.py
 
 ## Output
-- Mean Squared Error (MSE) and R² score are printed.
-- A scatter plot shows actual vs predicted house prices.
+- Mean Squared Error
+- Predicted price for sample input
 
-## Requirements
-- pandas
-- matplotlib
-- scikit-learn
+## Author
+Your Name
